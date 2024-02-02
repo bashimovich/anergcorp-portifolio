@@ -1,0 +1,12 @@
+.skills-blog-title {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    padding-top: 60px;
+}
+.skills-blog-title h1{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}

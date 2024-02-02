@@ -1,0 +1,25 @@
+.custom-carousel{
+    height: auto;
+    width: 100%;
+}
+.custom-carousel-items{
+    height: 300px;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(5, 200px);
+    gap: 37px;
+    align-items: center;
+
+}
+.item{
+    background-color: #374151;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item img{
+    width: 50%;
+}

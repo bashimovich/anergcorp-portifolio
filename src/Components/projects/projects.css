@@ -1,0 +1,39 @@
+.wrapper{
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.project{
+    background-color: #374151;
+    padding: 10px;
+    border-radius: 5px;
+}
+.project img{
+    width: 100%;
+}
+
+.project .title{
+    font-size: 28px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.project .technologies{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.project .technologies span{
+    margin-right: 10px;
+}
+.project .source{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.project .source div{
+    margin-left: 10px;
+}
+.link{
+    color: #119da4;
+}
